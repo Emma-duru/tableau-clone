@@ -1,0 +1,591 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Top Header Styling */
+header {
+    padding: 1% 3.5%;
+}
+
+.logo {
+    height: 30px;
+}
+
+.pricing-signin-search {
+    float: right;
+}
+
+.pricing, .signin {
+    font-size: 11px;
+    color: black;
+    font-weight: 600;
+}
+
+.pricing:hover, .signin:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.pricing, .signin, .search {
+    padding: 0 15px;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+
+/* Bottom Header */
+.navigation {
+    padding: 5px 0;
+}
+.nav-link {
+    font-size: 15px;
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-size: 11px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 0 3px;
+}
+
+.red-btn {
+    background-color: #FF6D02;
+    color: white;
+}
+
+.red-btn:hover {
+    text-decoration: underline;
+    background-color: #FFB16F;
+    color: white;
+}
+
+.white-btn {
+    border: 2px solid #FF6D02;
+    color: #FF6D02;
+}
+
+.white-btn:hover {
+    border-color: #FFB16F;
+    color: #FFB16F;
+    text-decoration: underline;
+}
+
+
+/* Showcase Styling */
+.showcase {
+    background-color: #576EB2;
+    color: white;
+    text-align: center;
+    padding: 4% 14.5%;
+}
+
+.showcase-img {
+    height: 80px;
+}
+
+.showcase-heading {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 2;
+}
+
+.showcase-text {
+    font-size: 26px;
+    width: 85%;
+    margin: auto;
+}
+
+.showcase-btn {
+    margin: 30px;
+    font-weight: 700;
+}
+
+
+/* Purpose Section */
+.purpose {
+    padding: 3% 14.5%;
+    text-align: center;
+}
+
+.purpose-subtitle {
+    font-size: 26px;
+}
+
+.purpose-row {
+    margin: 5% 0;
+    padding: 0;
+}
+
+
+/* Cards Styling */
+.card {
+    border: none;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+.card-img {
+    transition: 0.5s;
+    border-radius: 0;
+}
+
+.card-img:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 15px 5px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.card-title:hover {
+    text-decoration: underline;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-link {
+    font-size: 11px;
+    color: #FF6D02;
+    font-weight: 700;
+}
+
+.card-link:hover {
+    color: #FF6D02;
+    text-decoration: underline;
+}
+
+
+/* Conference Section */
+.conference {
+    background-image: linear-gradient(#7EC0D0, #6CADBF);
+    color: white;
+    padding: 5% 16%;
+}
+
+.conference-img {
+    height: 120px;
+}
+
+.conference-tagline {
+    font-size: 36px;
+    line-height: 1;
+    text-align: left;
+}
+
+.conference-text {
+    text-align: center;
+}
+
+.conference-btn {
+    background-color: white;
+    margin-top: 15px;
+}
+
+.conference-btn:hover {
+    text-decoration: underline;
+}
+
+
+/* Organizations Section */
+.organizations {
+    padding: 4% 10%;
+    text-align: center;
+}
+
+.organization-subtitle {
+    font-size: 36px;
+    width: 75%;
+    margin: 2.5% auto;
+}
+
+.organizations .card-body {
+    padding: 15px 0;
+    text-align: left;
+}
+
+
+/* Features Styling */
+.features-row {
+    width: 100%;
+    padding: 0 10%;
+}
+.features-img {
+    width: 100%
+}
+
+.features-heading {
+    font-size: 23px;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.features-heading:hover {
+    text-decoration: underline;
+}
+
+.features-text {
+    font-size: 14px;
+    font-family: "Merriweather", serif;
+}
+
+.features-link {
+    color: #FF6D02;
+}
+
+.feature-line {
+    display: none;
+    margin: 2% auto;
+}
+
+.features-link:hover {
+    color: #FF6D02;
+    text-decoration: underline;
+}
+
+hr {
+    width: 80%;
+    margin: 3% auto;
+}
+
+
+/* Testimonial Section Styling */
+.testimonial {
+    padding: 0 10% 5% 10%;
+    text-align: center;
+}
+
+.testimonial-text {
+    font-family: "Merriweather", serif;
+    font-size: 27px;
+}
+
+.section-line {
+    width: 40px;
+    margin: 15px auto;
+}
+
+.testimonial-author {
+    font-size: 11px;
+    color: #666666;
+}
+
+
+/* Download */
+.download {
+    background-color: #63A5B9;
+    color: white;
+    text-align: center;
+    margin: 5% 10%;
+    padding: 5% 0;
+}
+
+.download-heading {
+    font-size: 36px;
+}
+
+.download-text {
+    font-size: 26px;
+}
+
+.download-btn {
+    border: 2px solid white;
+    color: white;
+    font-weight: 700;
+}
+
+.download-btn:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* Call To Action */
+.cta {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 7%;
+}
+
+.cta .btn {
+    margin-top: 2%;
+}
+
+/* Footer */
+footer {
+    background-color: #1B1B1B;
+    color: #dddddd;
+    padding: 3%;
+}
+
+.footer-dropdown {
+    display: inline;
+    padding: 10px 20px;
+    background-color: #333333;
+    font-size: 14px;
+}
+
+.footer-list {
+    display: inline;
+    list-style-type: none;
+    padding: 0 5px;
+}
+
+.footer-list li {
+    display: inline;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+footer li:hover {
+    text-decoration: underline;
+}
+
+.right-footer {
+    text-align: right;
+}
+
+.icon {
+    font-size: 20px;
+    color: #BBBBBB;
+    padding: 0 10px;
+}
+
+.icon:hover {
+    color: #BBBBBB;
+}
+
+.copyright {
+    font-size: 11px;
+    
+}
+
+.legal-info, .copyright {
+    padding: 0;
+    margin: 4% 0;
+}
+
+.legal-info li{
+    list-style: none;
+    display: inline;
+    font-size: 11px;
+    margin-right: 3%;
+    cursor: pointer;
+    color: #BBBBBB;
+}
+
+
+
+/* Media Query */
+@media (max-width: 992px) {
+
+    /* Header */
+    header {
+        padding: 2% 3.5%;
+    }
+    .navbar-toggler {
+        display: inline;
+    }
+
+    .showcase {
+        padding: 7% 1%;
+    }
+
+    .showcase-heading {
+        line-height: 1.3;
+    }
+
+    /* Purpose */
+    .purpose {
+        padding: 3% 2%;
+    }
+
+    /* Conference */
+    .conference {
+        padding: 5% 3%;
+    }
+
+    .conference-img {
+        height: 100px;
+    }
+
+    .conference-tagline {
+        font-size: 32px;
+    }
+
+    /* Organizations Section */
+    .organizations {
+        padding: 4%;
+    }
+    .organization-subtitle {
+        font-size: 32px;
+        width: 65%;
+    }
+
+    /* Features Styling */
+    .features-row {
+        margin: 10% 0;
+        padding: 0 2%;
+    }
+
+    .features-heading {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    hr {
+        width: 94%;
+        margin: 5% auto;
+    }
+
+    /* Testimonial */
+    .testimonial {
+        padding: 0 15% 5% 10%;
+    }
+
+    /* Download */
+    .download {
+        margin: 5% 3%;
+    }
+
+    .download-heading {
+        font-size: 32px;
+    }
+
+    /* Footer */
+    .footer-list{
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .showcase {
+        padding: 7% 5%;
+    }
+
+    .showcase-text {
+        width: 100%;
+    }
+
+    .conference {
+        padding: 8% 3%;
+    }
+    .conference-img {
+        height: 80px;
+    }
+}
+
+@media (max-width: 640px) {
+    .showcase-text {
+        width: 80%;
+    }
+
+    .conference-tagline {
+        text-align: center;
+    }
+
+    .conf-img {
+        text-align: center;
+    }
+
+    .conference-img {
+        height: 60px;
+    }
+}
+
+@media (max-width: 576px){
+    .btn {
+        width: 90%;
+    }
+
+    .nav-btns .btn {
+        margin: 2%;
+        text-align: center;
+    }
+
+    .showcase-heading {
+        font-size: 32px;
+    }
+
+    .showcase-text {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .purpose-subtitle {
+        font-size: 22px;
+    }
+
+    .conference-img {
+        width: 100%;
+        height: auto;
+        margin: 30px auto;
+    }
+
+    .organizations {
+        padding: 3%;
+    }
+
+    .organization-subtitle {
+        font-size: 27px;
+        width: 100%;
+    }
+
+    .features-heading {
+        font-size: 18px;
+    }
+
+    .feature-line {
+        display: block;
+    }
+
+    .each-feature {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-text {
+        font-size: 19px;
+    }
+
+    .download-heading{
+        font-size: 28px;
+    }
+
+    .download-text {
+        font-size: 22px;
+    }
+
+    .left-footer, .right-footer {
+        text-align: center;
+    }
+
+    .footer-dropdown {
+        display: block;
+    }
+
+    .footer-list li {
+        padding: 5px 7px;
+    }
+}
